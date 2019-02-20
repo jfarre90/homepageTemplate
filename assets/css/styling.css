@@ -297,3 +297,82 @@ footer p {
 	opacity: 0.6;
 	align-self: center;
 }
+
+
+/*Responsive design styling*/
+
+
+@media all and (max-width: 1100px){
+	.first-section-grid li.small, .first-section-grid li.large {
+		flex-basis: 50%;
+	}
+	
+	.contact-section form input {
+		flex-basis: 100%;
+		margin: 0 0 20px 0;
+	}
+	
+	footer {
+		flex-direction: column;
+	}
+	
+	footer p {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	
+	footer ul li {
+		margin: 0 8px;
+	}
+}
+
+@media all and (max-width: 800px) {
+	
+	section {
+		padding: 50px 20px;
+	}
+	
+	header {
+		padding: 20px 50px;
+		flex-direction:column;
+	}
+	
+	header h2 {
+		margin-bottom: 15px;
+	}
+	
+	.landing {
+		min-height: 600px;
+	}
+	
+	.landing h1 {
+		font-size: 40px;
+	}
+	
+	.landing h3 {
+		font-size: 24px;
+	}
+	
+	.landing a.btn {
+		padding: 15px 40px;
+	}
+	
+	.first-section-grid li.small, .first-section-grid li.large {
+		flex-basis: 100%;
+	}
+	
+	.second-section-grid li {
+		flex-basis: 100%;
+		padding: 20px;
+	}
+	
+	.testimonials-section .quote{
+		font-size: 18px;
+		margin: 15px 0;
+	}
+	
+	.testimonials-section .author{
+		font-size: 14px;
+	}
+}
+
